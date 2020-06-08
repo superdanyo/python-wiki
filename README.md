@@ -2,6 +2,12 @@
 
 ### Basics
 
+##### Start-Methode
+```
+if __name__ == '__main__':
+    main()
+```
+
 ##### Löscht überflüssige Leerzeilen
 ```
 fileContent = "".join([s for s in fileContent.splitlines(True) if s.strip("\r\n")])
